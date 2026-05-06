@@ -12,6 +12,7 @@ router.post('/pickup-coordinate', staffController.pickupCoordinate);
 router.post('/delivery-coordinate', staffController.deliveryCoordinate);
 router.get('/hub-revenue-statistics', staffController.getHubRevenueStatistics);
 router.get('/monthly-bonus', staffController.getMonthlyBonus);
+router.get('/hub-performance', staffController.getHubPerformance);
 
 // Staff management
 router.get('/hub-staff', staffController.getStaffByHub);

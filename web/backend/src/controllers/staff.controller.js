@@ -273,6 +273,17 @@ const updateHubCapacity = asyncHandler(async (req, res) => {
     return res.json({ success: true, message: 'Cập nhật sức chứa bưu cục thành công' });
 });
 
+const getHubPerformance = asyncHandler(async (req, res) => {
+    let { month, year } = req.query;
+    
+    const now = new Date();
+    month = month ? parseInt(month) : now.getMonth() + 1;
+    year = year ? parseInt(year) : now.getFullYear();
+
+    const performance = await callProcedure('Rank_Hub_Performance', [month, year]);
+    return res.json({ success: true, data: performance });
+});
+
 module.exports = {
     getHubOrders,
     getHubCapacity,
@@ -288,5 +299,7 @@ module.exports = {
     addDriver,
     updateStaffRole,
     removeStaff,
-    updateHubCapacity
+    updateHubCapacity,
+    getHubPerformance
 };
+

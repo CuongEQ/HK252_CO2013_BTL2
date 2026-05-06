@@ -10,12 +10,15 @@ function formatDateTime(value) {
 export default function ManagerPanel({ user }) {
     const toast = useToast();
     const [hubId] = useState(user?.hubId || '');
-    const [activeTab, setActiveTab] = useState('orders'); // 'orders' or 'staff'
+    const [activeTab, setActiveTab] = useState('orders'); // 'orders', 'staff', 'ranking'
     
     // Data states
     const [orders, setOrders] = useState([]);
     const [staffList, setStaffList] = useState([]);
     const [capacity, setCapacity] = useState(null);
+    const [rankingData, setRankingData] = useState([]);
+    const [rankingMonth, setRankingMonth] = useState(new Date().getMonth() + 1);
+    const [rankingYear, setRankingYear] = useState(new Date().getFullYear());
 
     // Filter states
     const [searchOrder, setSearchOrder] = useState('');
@@ -38,8 +41,23 @@ export default function ManagerPanel({ user }) {
     useEffect(() => {
         if (hubId) {
             loadInitialData();
+            loadRankingData(rankingMonth, rankingYear);
         }
     }, [hubId]);
+
+    const loadRankingData = async (month, year) => {
+        try {
+            const res = await apiClient.get(`/staff/hub-performance?month=${month}&year=${year}`);
+            setRankingData(res.data);
+        } catch (error) {
+            toast.error('Lỗi tải bảng xếp hạng: ' + error.message);
+        }
+    };
+
+    const handleRankingFilter = (e) => {
+        e.preventDefault();
+        loadRankingData(rankingMonth, rankingYear);
+    };
 
     const loadInitialData = async () => {
         try {
@@ -152,6 +170,12 @@ export default function ManagerPanel({ user }) {
                             className={`flex-1 rounded-xl p-3 text-sm font-bold transition ${activeTab === 'staff' ? 'bg-blue-600 text-white shadow-lg shadow-blue-200' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}`}
                         >
                             Quản lý Nhân viên
+                        </button>
+                        <button 
+                            onClick={() => setActiveTab('ranking')}
+                            className={`flex-1 rounded-xl p-3 text-sm font-bold transition ${activeTab === 'ranking' ? 'bg-amber-500 text-white shadow-lg shadow-amber-200' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}`}
+                        >
+                            Xếp hạng Bưu cục
                         </button>
                     </div>
                 </div>
@@ -322,6 +346,64 @@ export default function ManagerPanel({ user }) {
                                         </td>
                                     </tr>
                                 ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            )}
+
+            {/* Tab Content: Ranking */}
+            {activeTab === 'ranking' && (
+                <div className="rounded-2xl bg-white p-6 shadow-panel animate-in fade-in slide-in-from-bottom-4">
+                    <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
+                        <h3 className="text-lg font-bold text-slate-900">Bảng Xếp Hạng Bưu Cục</h3>
+                        <form onSubmit={handleRankingFilter} className="flex gap-2">
+                            <input
+                                type="number"
+                                min="1" max="12"
+                                className="input w-24"
+                                placeholder="Tháng"
+                                value={rankingMonth}
+                                onChange={e => setRankingMonth(e.target.value)}
+                            />
+                            <input
+                                type="number"
+                                min="2000" max="2100"
+                                className="input w-24"
+                                placeholder="Năm"
+                                value={rankingYear}
+                                onChange={e => setRankingYear(e.target.value)}
+                            />
+                            <button type="submit" className="rounded-xl bg-amber-500 px-4 py-2 font-bold text-white transition hover:bg-amber-600">Lọc</button>
+                        </form>
+                    </div>
+
+                    <div className="overflow-x-auto">
+                        <table className="w-full text-left">
+                            <thead>
+                                <tr className="border-b border-slate-100 text-sm font-semibold text-slate-500 bg-slate-50">
+                                    <th className="px-4 py-3 w-16 text-center">Hạng</th>
+                                    <th className="px-4 py-3">Mã Bưu cục</th>
+                                    <th className="px-4 py-3">Tên Bưu cục</th>
+                                    <th className="px-4 py-3 text-right">Đơn Giao Thành Công</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {rankingData.map((hub, index) => (
+                                    <tr key={hub.Hub_ID} className={`border-b border-slate-50 transition hover:bg-slate-50/50 ${hub.Hub_ID === hubId ? 'bg-amber-50' : ''}`}>
+                                        <td className="px-4 py-4 text-center font-bold">
+                                            {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`}
+                                        </td>
+                                        <td className="px-4 py-4 font-mono font-medium text-slate-900">{hub.Hub_ID}</td>
+                                        <td className="px-4 py-4 font-semibold text-slate-700">{hub.Hub_Name} {hub.Hub_ID === hubId && <span className="text-xs text-amber-600 ml-2">(Bạn)</span>}</td>
+                                        <td className="px-4 py-4 text-right font-bold text-emerald-600">{hub.Total_Successful_Orders}</td>
+                                    </tr>
+                                ))}
+                                {rankingData.length === 0 && (
+                                    <tr>
+                                        <td colSpan="4" className="px-4 py-8 text-center text-slate-500">Chưa có dữ liệu xếp hạng trong tháng này</td>
+                                    </tr>
+                                )}
                             </tbody>
                         </table>
                     </div>
