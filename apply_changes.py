@@ -98,6 +98,8 @@ def execute_sql_file(connection, filename):
         if statement.strip():
             try:
                 cursor.execute(statement)
+                while cursor.nextset():
+                    pass
                 connection.commit()
                 # Print progress for first few and last few
                 if i < 3 or i >= len(statements) - 3:

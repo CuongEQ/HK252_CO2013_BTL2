@@ -1,6 +1,13 @@
 ﻿Rating_ID,Score,Comment,Customer_ID,Order_ID
-RAT001,5,"Dịch vụ rất tốt, giao hàng nhanh chóng.",U001,ORD001
-RAT002,4,"Hàng đóng gói cẩn thận, shipper thân thiện.",U002,ORD001
-RAT003,3,Giao hàng hơi chậm nhưng chấp nhận được.,U001,ORD001
-RAT004,5,Tuyệt vời!,U002,ORD001
-RAT005,4,Hài lòng với dịch vụ.,U001,ORD001
+RAT_ORD004,3,Tuyệt vời,U014,ORD004
+RAT_ORD009,4,Tuyệt vời,U009,ORD009
+RAT_ORD029,4,Giao hàng nhanh,U069,ORD029
+RAT_ORD046,3,Tuyệt vời,U011,ORD046
+RAT_ORD051,4,Tuyệt vời,U049,ORD051
+RAT_ORD054,5,Dịch vụ tốt,U066,ORD054
+RAT_ORD065,4,Giao hàng nhanh,U092,ORD065
+RAT_ORD093,5,Tuyệt vời,U017,ORD093
+RAT_ORD124,5,Giao hàng nhanh,U052,ORD124
+RAT_ORD131,3,Giao hàng nhanh,U098,ORD131
+RAT_ORD160,4,Giao hàng nhanh,U074,ORD160
+RAT_ORD193,4,Giao hàng nhanh,U046,ORD193

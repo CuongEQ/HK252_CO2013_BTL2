@@ -1,6 +1,22 @@
 ﻿User_ID,Role,Supervisor_ID,Hub_ID_Works
-U009,Manager,,HUB000
-U010,Staff,U009,HUB000
-U013,Manager,,HUB001
-U014,Manager,,HUB002
-U015,Manager,,HUB003
+U002,Nhân viên,,HUB059
+U006,Điều phối,,HUB053
+U007,Manager,,HUB031
+U012,Điều phối,,HUB004
+U013,Điều phối,,HUB049
+U019,Manager,,HUB012
+U025,Nhân viên,,HUB046
+U027,Manager,,HUB039
+U030,Kế toán,,HUB064
+U035,Nhân viên,,HUB035
+U036,Manager,,HUB060
+U045,Kế toán,,HUB043
+U050,Kế toán,,HUB056
+U051,Kế toán,,HUB065
+U055,Điều phối,,HUB009
+U057,Manager,,HUB065
+U070,Điều phối,,HUB016
+U072,Kế toán,,HUB003
+U094,Điều phối,,HUB020
+U095,Nhân viên,,HUB018
+U100,Kế toán,,HUB045
