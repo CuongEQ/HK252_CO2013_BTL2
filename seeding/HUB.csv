@@ -1,0 +1,67 @@
+﻿Hub_ID,Hub_Name,Hub_Address,Current_Order_Count,Max_Capacity
+HUB000,HUB Ba Đình,"Số 8, Đường Lê Lợi, Phường Ba Đình, Thành phố Hà Nội",0,2363
+HUB001,HUB Thục Phán,"Số 8, Đường Lê Lợi, Phường Thục Phán, Tỉnh Cao Bằng",0,2187
+HUB002,HUB Hà Quảng,"Số 100, Đường Nguyễn Trãi, Xã Hà Quảng, Tỉnh Cao Bằng",0,1411
+HUB003,HUB Hà Giang 1,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Hà Giang 1, Tỉnh Tuyên Quang",0,2478
+HUB004,HUB Sín Thầu,"Số 12, Đường Trường Chinh, Xã Sín Thầu, Tỉnh Điện Biên",0,2619
+HUB005,HUB Điện Biên Phủ,"Số 10, Quốc lộ 1A, Phường Điện Biên Phủ, Tỉnh Điện Biên",0,1079
+HUB006,HUB Mường Thanh,"Số 10, Quốc lộ 1A, Phường Mường Thanh, Tỉnh Điện Biên",0,1869
+HUB007,HUB Đoàn Kết,"Số 12, Đường Trường Chinh, Phường Đoàn Kết, Tỉnh Lai Châu",0,2314
+HUB008,HUB Phong Thổ,"Số 8, Đường Lê Lợi, Xã Phong Thổ, Tỉnh Lai Châu",0,2768
+HUB009,HUB Bình Lư,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Xã Bình Lư, Tỉnh Lai Châu",0,2717
+HUB010,HUB Tô Hiệu,"Số 8, Đường Lê Lợi, Phường Tô Hiệu, Tỉnh Sơn La",0,1144
+HUB011,HUB Chiềng Cơi,"Số 8, Đường Lê Lợi, Phường Chiềng Cơi, Tỉnh Sơn La",0,1103
+HUB012,HUB Bảo Thắng,"Khu Công Nghiệp Tằng Loỏng, Huyện Bảo Thắng, Tỉnh Lào Cai",0,2458
+HUB013,HUB Trung Tâm Lào Cai,"Số 10, Quốc lộ 1A, Phường Trung Tâm Lào Cai, Tỉnh Lào Cai",0,2632
+HUB014,HUB 1,"Số 10, Quốc lộ 1A, Quận 1, Tỉnh Lào Cai",0,1905
+HUB015,HUB Đức Xuân,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Đức Xuân, Tỉnh Thái Nguyên",0,1004
+HUB016,HUB Tam Thanh,"Số 12, Đường Trường Chinh, Phường Tam Thanh, Tỉnh Lạng Sơn",0,2312
+HUB017,HUB Đông Kinh,"Số 8, Đường Lê Lợi, Phường Đông Kinh, Tỉnh Lạng Sơn",0,2120
+HUB018,HUB Cao Xanh,"Số 100, Đường Nguyễn Trãi, Phường Cao Xanh, Tỉnh Quảng Ninh",0,2192
+HUB019,HUB Hà Tu,"Số 12, Đường Trường Chinh, Phường Hà Tu, Tỉnh Quảng Ninh",0,1623
+HUB020,HUB Việt Hưng,"Số 100, Đường Nguyễn Trãi, Phường Việt Hưng, Tỉnh Quảng Ninh",0,2845
+HUB021,HUB Phù Khê,"Số 8, Đường Lê Lợi, Phường Phù Khê, Tỉnh Bắc Ninh",0,1607
+HUB022,HUB Tân Hòa,"Số 8, Đường Lê Lợi, Phường Tân Hòa, Tỉnh Phú Thọ",0,2458
+HUB023,HUB An Biên,"Số 10, Quốc lộ 1A, Phường An Biên, Thành phố Hải Phòng",0,2902
+HUB024,HUB Phố Hiến,"Số 10, Quốc lộ 1A, Phường Phố Hiến, Tỉnh Hưng Yên",0,1232
+HUB025,HUB Trung Sơn,"Số 100, Đường Nguyễn Trãi, Phường Trung Sơn, Tỉnh Ninh Bình",0,2499
+HUB026,HUB Nam Hoa Lư,"Khu Công Nghiệp, Phường Nam Hoa Lư, Tỉnh Ninh Bình",0,2078
+HUB027,HUB Yên Sơn,"Khu Công Nghiệp, Phường Yên Sơn, Tỉnh Ninh Bình",0,2850
+HUB028,HUB Bỉm Sơn,"Số 15, Đường Điện Biên Phủ, Phường Bỉm Sơn, Tỉnh Thanh Hóa",0,2267
+HUB029,HUB Hạc Thành,"Số 15, Đường Điện Biên Phủ, Phường Hạc Thành, Tỉnh Thanh Hóa",0,2881
+HUB030,HUB Hàm Rồng,"Số 10, Quốc lộ 1A, Phường Hàm Rồng, Tỉnh Thanh Hóa",0,2163
+HUB031,HUB Trung Tâm Nghệ An,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Trung Tâm Nghệ An, Tỉnh Nghệ An",0,1756
+HUB032,HUB 2,"Số 8, Đường Lê Lợi, Quận 2, Tỉnh Nghệ An",0,2841
+HUB033,HUB Trung Tâm Hà Tĩnh,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Trung Tâm Hà Tĩnh, Tỉnh Hà Tĩnh",0,1289
+HUB034,HUB Trung Tâm Quảng Trị,"Số 12, Đường Trường Chinh, Phường Trung Tâm Quảng Trị, Tỉnh Quảng Trị",0,2761
+HUB035,HUB Gio Linh,"Thị trấn Gio Linh, Huyện Gio Linh, Tỉnh Quảng Trị",0,2933
+HUB036,HUB 1,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Quận 1, Tỉnh Quảng Trị",0,1986
+HUB037,HUB 2,"Số 12, Đường Trường Chinh, Quận 2, Thành phố Huế",0,1469
+HUB038,HUB Trung Tâm Huế,"Khu Công Nghiệp, Phường Trung Tâm Huế, Thành phố Huế",0,2554
+HUB039,HUB 1,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Quận 1, Thành phố Đà Nẵng",0,2117
+HUB040,HUB Trung Tâm Đà Nẵng,"Số 12, Đường Trường Chinh, Phường Trung Tâm Đà Nẵng, Thành phố Đà Nẵng",0,2075
+HUB041,HUB Trung Tâm Quảng Ngãi,"Số 100, Đường Nguyễn Trãi, Phường Trung Tâm Quảng Ngãi, Tỉnh Quảng Ngãi",0,1016
+HUB042,HUB Trung Tâm Gia Lai,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Trung Tâm Gia Lai, Tỉnh Gia Lai",0,2506
+HUB043,HUB Ngoại Ô,"Khu Công Nghiệp, Huyện Ngoại Ô, Tỉnh Gia Lai",0,2747
+HUB044,HUB 2,"Khu Công Nghiệp, Quận 2, Tỉnh Gia Lai",0,2091
+HUB045,HUB Cam Ranh,"Phường Cam Lợi, Thành phố Cam Ranh, Tỉnh Khánh Hòa",0,2567
+HUB046,HUB 1,"Số 12, Đường Trường Chinh, Quận 1, Tỉnh Khánh Hòa",0,2976
+HUB047,HUB Trung Tâm Khánh Hòa,"Số 10, Quốc lộ 1A, Phường Trung Tâm Khánh Hòa, Tỉnh Khánh Hòa",0,1695
+HUB048,HUB Trung Tâm Đắk Lắk,"Khu Công Nghiệp, Phường Trung Tâm Đắk Lắk, Tỉnh Đắk Lắk",0,2377
+HUB049,HUB Trung Tâm Lâm Đồng,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Trung Tâm Lâm Đồng, Tỉnh Lâm Đồng",0,1836
+HUB050,HUB 1,"Số 12, Đường Trường Chinh, Quận 1, Tỉnh Đồng Nai",0,2821
+HUB051,HUB Ngoại Ô,"Số 100, Đường Nguyễn Trãi, Huyện Ngoại Ô, Tỉnh Đồng Nai",0,1084
+HUB052,HUB Trung Tâm Đồng Nai,"Khu Công Nghiệp, Phường Trung Tâm Đồng Nai, Tỉnh Đồng Nai",0,2064
+HUB053,HUB Trung Tâm Hồ Chí Minh,"Khu Công Nghiệp, Phường Trung Tâm Hồ Chí Minh, Thành phố Hồ Chí Minh",0,1300
+HUB054,HUB Tân Bình,"Phường 12, Quận Tân Bình, Thành phố Hồ Chí Minh",0,1635
+HUB055,HUB 1,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Quận 1, Thành phố Hồ Chí Minh",0,2047
+HUB056,HUB Trung Tâm Tây Ninh,"Số 8, Đường Lê Lợi, Phường Trung Tâm Tây Ninh, Tỉnh Tây Ninh",0,1094
+HUB057,HUB 1,"Số 15, Đường Điện Biên Phủ, Quận 1, Tỉnh Tây Ninh",0,2183
+HUB058,HUB Trung Tâm Đồng Tháp,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Phường Trung Tâm Đồng Tháp, Tỉnh Đồng Tháp",0,2210
+HUB059,HUB 2,"Số 12, Đường Trường Chinh, Quận 2, Tỉnh Đồng Tháp",0,2880
+HUB060,HUB Trung Tâm Vĩnh Long,"Số 100, Đường Nguyễn Trãi, Phường Trung Tâm Vĩnh Long, Tỉnh Vĩnh Long",0,1004
+HUB061,HUB 2,"Số 10, Quốc lộ 1A, Quận 2, Tỉnh An Giang",0,1449
+HUB062,HUB Trung Tâm An Giang,"Khu Công Nghiệp, Phường Trung Tâm An Giang, Tỉnh An Giang",0,1542
+HUB063,HUB Trung Tâm Cần Thơ,"Số 100, Đường Nguyễn Trãi, Phường Trung Tâm Cần Thơ, Thành phố Cần Thơ",0,2324
+HUB064,HUB Ngoại Ô,"Tòa nhà Vận Tải, Đường Trần Hưng Đạo, Huyện Ngoại Ô, Thành phố Cần Thơ",0,1795
+HUB065,HUB Trung Tâm Cà Mau,"Số 15, Đường Điện Biên Phủ, Phường Trung Tâm Cà Mau, Tỉnh Cà Mau",0,1233
