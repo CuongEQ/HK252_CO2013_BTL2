@@ -1,25 +1,6 @@
 ﻿Order_ID,Status,Weight,COD,Sender_ID,Sender_Address,Sender_L1_Address_ID,Sender_L2_Address_ID,Source_Hub_ID,Receiver_ID,Receiver_Address,Receiver_L1_Address_ID,Receiver_L2_Address_ID,Destination_Hub_ID,Voucher_ID,Shipping_Fee
-ORD001,Giao thành công,1.0,0,C01,"Số 15, Đường Điện Biên Phủ, Xã Hoàng Su Phì, Tỉnh Tuyên Quang",L1_02,L2_070,HUB003,C15,"Khu Công Nghiệp, Quận 1, Tỉnh Nghệ An",L1_16,L2_241,HUB031,VOUCHER14,40000.0
-ORD002,Chờ lấy hàng,1.1,50000,C10,"Số 10, Quốc lộ 1A, Xã Hạ Hòa, Tỉnh Phú Thọ",L1_11,L2_178,HUB022,C07,"Số 15, Đường Điện Biên Phủ, Quận 1, Thành phố Huế",L1_19,L2_253,HUB038,VOUCHER10,40500.0
-ORD003,Chờ lấy hàng,0.7,50000,C03,"Số 100, Đường Nguyễn Trãi, Phường Đoàn Kết, Tỉnh Lai Châu",L1_04,L2_090,HUB007,C01,"Số 12, Đường Trường Chinh, Xã Thanh Oai, Thành phố Hà Nội",L1_00,L2_040,HUB000,VOUCHER08,38500.0
-ORD004,Chờ lấy hàng,7.7,200000,C05,"Số 8, Đường Lê Lợi, Phường Trung Tâm Lâm Đồng, Tỉnh Lâm Đồng",L1_25,L2_276,HUB049,C07,"Số 100, Đường Nguyễn Trãi, Xã Đoan Hùng, Tỉnh Phú Thọ",L1_11,L2_177,HUB022,VOUCHER05,73500.0
-ORD005,Chờ lấy hàng,3.4,0,C12,"Số 15, Đường Điện Biên Phủ, Phường Bạch Mai, Thành phố Hà Nội",L1_00,L2_021,HUB000,C03,"Khu Công Nghiệp, Phường Việt Hưng, Thành phố Hà Nội",L1_00,L2_009,HUB000,VOUCHER05,52000.0
-ORD006,Chờ lấy hàng,8.0,100000,C15,"Số 100, Đường Nguyễn Trãi, Quận 1, Tỉnh Khánh Hòa",L1_23,L2_269,HUB046,C03,"Số 12, Đường Trường Chinh, Phường Kim Liên, Thành phố Hà Nội",L1_00,L2_017,HUB000,VOUCHER08,75000.0
-ORD007,Chờ lấy hàng,6.5,50000,C10,"Số 100, Đường Nguyễn Trãi, Phường Trung Tâm An Giang, Tỉnh An Giang",L1_31,L2_300,HUB062,C07,"Số 15, Đường Điện Biên Phủ, Xã Kim Động, Tỉnh Hưng Yên",L1_13,L2_208,HUB024,VOUCHER13,67500.0
-ORD008,Chờ lấy hàng,3.0,100000,C04,"Khu Công Nghiệp, Xã Yên Mỹ, Tỉnh Hưng Yên",L1_13,L2_205,HUB024,C01,"Số 10, Quốc lộ 1A, Xã Yên Khánh, Tỉnh Ninh Bình",L1_14,L2_221,HUB026,VOUCHER07,50000.0
-ORD009,Chờ lấy hàng,5.8,200000,C11,"Số 12, Đường Trường Chinh, Phường Trung Tâm Hà Tĩnh, Tỉnh Hà Tĩnh",L1_17,L2_244,HUB033,C08,"Số 15, Đường Điện Biên Phủ, Phường Trung Tâm Hà Tĩnh, Tỉnh Hà Tĩnh",L1_17,L2_244,HUB033,VOUCHER01,64000.0
-ORD010,Chờ lấy hàng,7.1,50000,C09,"Số 100, Đường Nguyễn Trãi, Phường Từ Liêm, Thành phố Hà Nội",L1_00,L2_026,HUB000,C13,"Số 100, Đường Nguyễn Trãi, Quận 1, Tỉnh Đồng Nai",L1_26,L2_281,HUB050,VOUCHER07,70500.0
-ORD011,Chờ lấy hàng,3.8,100000,C14,"Số 15, Đường Điện Biên Phủ, Phường Trung Tâm Vĩnh Long, Tỉnh Vĩnh Long",L1_30,L2_296,HUB060,C06,"Số 8, Đường Lê Lợi, Huyện Ngoại Ô, Thành phố Huế",L1_19,L2_255,HUB038,VOUCHER01,54000.0
-ORD012,Chờ lấy hàng,4.7,50000,C10,"Số 10, Quốc lộ 1A, Phường Phú Thượng, Thành phố Hà Nội",L1_00,L2_005,HUB000,C14,"Số 8, Đường Lê Lợi, Xã Lộc Bình, Tỉnh Lạng Sơn",L1_08,L2_140,HUB017,VOUCHER07,58500.0
-ORD013,Chờ lấy hàng,6.0,200000,C04,"Số 12, Đường Trường Chinh, Phường Chiềng An, Tỉnh Sơn La",L1_05,L2_102,HUB010,C07,"Số 10, Quốc lộ 1A, Xã Thạch Thành, Tỉnh Thanh Hóa",L1_15,L2_237,HUB029,VOUCHER03,65000.0
-ORD014,Chờ lấy hàng,4.1,200000,C11,"Số 100, Đường Nguyễn Trãi, Huyện Ngoại Ô, Tỉnh Quảng Trị",L1_18,L2_251,HUB034,C15,"Số 8, Đường Lê Lợi, Phường Trung Tâm Đồng Nai, Tỉnh Đồng Nai",L1_26,L2_280,HUB052,VOUCHER08,55500.0
-ORD015,Chờ lấy hàng,9.2,50000,C06,"Số 12, Đường Trường Chinh, Quận 2, Thành phố Huế",L1_19,L2_254,HUB037,C12,"Số 100, Đường Nguyễn Trãi, Phường Phố Hiến, Tỉnh Hưng Yên",L1_13,L2_198,HUB024,VOUCHER03,81000.0
-ORD016,Chờ lấy hàng,9.5,50000,C06,"Khu Công Nghiệp, Xã Thạch Thất, Thành phố Hà Nội",L1_00,L2_038,HUB000,C12,"Số 100, Đường Nguyễn Trãi, Phường Bình Thuận, Tỉnh Tuyên Quang",L1_02,L2_066,HUB003,VOUCHER09,82500.0
-ORD017,Chờ lấy hàng,5.8,100000,C08,"Số 8, Đường Lê Lợi, Quận 1, Tỉnh Vĩnh Long",L1_30,L2_297,HUB060,C07,"Số 12, Đường Trường Chinh, Phường Kỳ Sơn, Tỉnh Phú Thọ",L1_11,L2_171,HUB022,VOUCHER10,64000.0
-ORD018,Chờ lấy hàng,7.8,200000,C02,"Khu Công Nghiệp, Phường Trung Tâm Huế, Thành phố Huế",L1_19,L2_252,HUB038,C04,"Số 12, Đường Trường Chinh, Xã Hoằng Hóa, Tỉnh Thanh Hóa",L1_15,L2_238,HUB030,VOUCHER14,74000.0
-ORD019,Chờ lấy hàng,7.7,0,C08,"Số 12, Đường Trường Chinh, Quận 2, Thành phố Cần Thơ",L1_32,L2_306,HUB063,C01,"Số 15, Đường Điện Biên Phủ, Phường Đức Xuân, Tỉnh Thái Nguyên",L1_07,L2_119,HUB015,VOUCHER10,73500.0
-ORD020,Chờ lấy hàng,9.7,50000,C09,"Số 15, Đường Điện Biên Phủ, Xã Tuần Giáo, Tỉnh Điện Biên",L1_03,L2_087,HUB006,C07,"Khu Công Nghiệp, Phường Hà Tu, Tỉnh Quảng Ninh",L1_09,L2_143,HUB019,VOUCHER12,83500.0
-ORD021,Chờ lấy hàng,5.7,0,C04,"Số 15, Đường Điện Biên Phủ, Xã Yên Mỹ, Tỉnh Hưng Yên",L1_13,L2_205,HUB024,C07,"Số 10, Quốc lộ 1A, Quận 1, Thành phố Hồ Chí Minh",L1_27,L2_285,HUB055,VOUCHER01,63500.0
-ORD022,Chờ lấy hàng,8.2,50000,C11,"Khu Công Nghiệp, Xã Hoa Lư, Tỉnh Ninh Bình",L1_14,L2_220,HUB025,C04,"Số 15, Đường Điện Biên Phủ, Huyện Ngoại Ô, Tỉnh An Giang",L1_31,L2_303,HUB061,VOUCHER10,76000.0
-ORD023,Chờ lấy hàng,5.9,100000,C05,"Số 12, Đường Trường Chinh, Xã Mường Chà, Tỉnh Điện Biên",L1_03,L2_085,HUB004,C10,"Số 10, Quốc lộ 1A, Phường Hồng Gai, Tỉnh Quảng Ninh",L1_09,L2_148,HUB019,VOUCHER04,64500.0
-ORD024,Chờ lấy hàng,0.6,100000,C11,"Số 10, Quốc lộ 1A, Xã Nguyên Bình, Tỉnh Cao Bằng",L1_01,L2_059,HUB002,C15,"Số 10, Quốc lộ 1A, Quận 1, Tỉnh Đồng Tháp",L1_29,L2_293,HUB058,VOUCHER02,38000.0
+ORD001,Giao thành công,1.5,0.0,U001,123 Đường A,L1_00,L2_000,HUB000,U002,456 Đường B,L1_01,L2_001,HUB000,,25000.0
+ORD002,Đang giao,2.0,50000.0,U002,456 Đường B,L1_01,L2_001,HUB000,U003,789 Đường C,L1_02,L2_002,HUB000,VOUCHER01,30000.0
+ORD003,Chờ lấy hàng,0.5,120000.0,U003,789 Đường C,L1_02,L2_002,HUB000,U004,101 Đường D,L1_03,L2_003,HUB000,,15000.0
+ORD004,Đã huỷ,5.0,0.0,U004,101 Đường D,L1_03,L2_003,HUB000,U005,202 Đường E,L1_04,L2_004,HUB000,VOUCHER02,45000.0
+ORD005,Đang xử lí,1.2,35000.0,U005,202 Đường E,L1_04,L2_004,HUB000,U001,123 Đường A,L1_00,L2_000,HUB000,,20000.0

@@ -1,2 +1,6 @@
-Rating_ID,Score,Comment,Customer_ID,Order_ID
-RT01,5,Good,C01,ORD001
+﻿Rating_ID,Score,Comment,Customer_ID,Order_ID
+RAT001,5,"Dịch vụ rất tốt, giao hàng nhanh chóng.",U001,ORD001
+RAT002,4,"Hàng đóng gói cẩn thận, shipper thân thiện.",U002,ORD001
+RAT003,3,Giao hàng hơi chậm nhưng chấp nhận được.,U001,ORD001
+RAT004,5,Tuyệt vời!,U002,ORD001
+RAT005,4,Hài lòng với dịch vụ.,U001,ORD001

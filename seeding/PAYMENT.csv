@@ -1,2 +1,6 @@
-Payment_ID,Order_ID,Amount,Payment_Time
-PAY_SENDER_ORD001,ORD001,50000,2026-04-28 00:00:00
+﻿Payment_ID,User_ID,Amount,Status,Payment_Time,Type,Details,Order_ID,Shipment_ID
+PAY001,U001,25000.0,Thành công,2026-05-01 07:00:00,Customer Order,Thanh toán phí vận chuyển đơn hàng ORD001,ORD001,
+PAY002,U002,30000.0,Đang xử lí,2026-05-02 08:00:00,Customer Order,Thanh toán phí vận chuyển đơn hàng ORD002,ORD002,
+PAY003,U001,120000.0,Thành công,2026-05-01 11:15:00,Order Income,Tiền thu hộ COD đơn hàng ORD001,ORD001,
+PAY004,U006,50000.0,Thành công,2026-05-01 12:00:00,Shipment Bonus,Thưởng hoàn thành chuyến hàng SHIP001,,SHIP001
+PAY005,U007,50000.0,Thành công,2026-05-02 14:00:00,Shipment Bonus,Thưởng hoàn thành chuyến hàng SHIP002,,SHIP002
